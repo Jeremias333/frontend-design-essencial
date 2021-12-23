@@ -1,0 +1,37 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+    font-size: 54px;
+}
+
+header {
+    width: inherit;
+    height: 20px;
+    background-color: purple;
+    padding: 10px;
+    margin: -10px;
+}
+
+.texto-preto {
+    font-family: Arial;
+    font-size: 32px;
+    color: #000;
+}
+
+.texto-azul {
+    font-family: Arial;
+    font-size: 18px;
+    color: #3333ff;
+}
+
+.box {
+    width: 900px;
+    height: 500px;
+    display: table;
+    margin: 30px auto;
+    text-align: center;
+    background-color: whitesmoke;
+    border-color: greenyellow;
+    border-radius: 8px;
+    box-shadow: 4px 4px 12px rgba(green,0.15);
+}
