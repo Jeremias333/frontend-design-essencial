@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #f2f5f7;
+}
+
+@media only screen and (min-width: 320px) {
+    .my-box {
+        width: 90%;
+        height: 400px;
+        background-color: yellowgreen;
+        display: block;
+        margin: 60px auto;
+        text-align: center;
+    }
+    
+    .my-box h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 540px){
+    .my-box {
+        width: 50%;
+        height: 400px;
+        background-color: cornflowerblue;
+        display: block;
+        margin: 60px auto;
+        text-align: center;
+    }
+    
+    .my-box h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+}
