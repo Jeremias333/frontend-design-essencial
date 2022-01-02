@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Selectors</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script> -->
+
+        <style>
+            h1 {
+                width: 300px;
+                height: 50px;
+                margin: 15px auto;
+                display: block;
+                background-color: #f2f2f2;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                line-height: 50px;
+            }
+
+            .my-buttons {
+                width: 300px;
+                height: 50px;
+                margin: 15px auto;
+                display: block;
+            }
+
+            .my-buttons button{
+                width: 50%;
+                height: 40px;
+                float: left;
+            }
+        </style>
+    </head>
+    <body style="text-align: center; margin-top: 100px;">
+        <h1 class="item-azul">Azul 1</h1>
+        <h1 class="item-azul">Azul 2</h1>
+        <h1 class="item-azul">Azul 3</h1>
+
+        <h1 class="item-vermelho">Vermelho 1</h1>
+        <h1 class="item-vermelho">Vermelho 2</h1>
+        <h1 class="item-vermelho">Vermelho 3</h1>
+
+        <div class="my-buttons">
+            <button onclick="doBlue()">Azuis</button>
+            <button onclick="doRed()">Vermelhos</button>
+        </div>
+
+        <script>
+            // var azul = document.querySelector(".item-azul");
+            var azul = document.querySelectorAll(".item-azul");
+            // console.log(azul[1].innerHTML);
+            var vermelho = document.querySelectorAll(".item-vermelho");
+
+            function doBlue(){
+                for(var i = 0; i < azul.length; i++){
+                    azul[i].style.color = "Blue";
+                }
+                document.body.style.backgroundColor = "Blue";
+            }
+
+            function doRed(){
+                for(var i = 0; i < vermelho.length; i++){
+                    vermelho[i].style.color = "Red";
+                }
+                document.body.style.backgroundColor = "Red";
+            }
+
+
+        </script>
+    </body>
+</html>
