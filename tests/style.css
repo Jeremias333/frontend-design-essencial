@@ -1,0 +1,11 @@
+div {
+    opacity: 1;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+div:visited {
+    width: 300px;
+}

@@ -1,0 +1,3 @@
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://getbootstrap.com/docs/5.1/getting-started/introduction/
+- https://github.com/animate-css/animate.css?files=1
