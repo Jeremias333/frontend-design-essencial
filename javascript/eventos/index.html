@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Eventos</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script>
+        <style>
+            body {
+                padding: 0;
+                margin: 0 auto;
+            }
+            .box {
+                width: 300px;
+                height: 140px;
+                background-color: blue;
+                color: lavender;
+                text-align: center;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" id="box-1">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        <div class="box" id="box-2">Jeremias Oliveira</div>
+        
+
+
+        <script>
+            var myBox = document.getElementById("box-1");
+
+            myBox.addEventListener('click', function (){
+                alert("Clickou na box");
+                myBox.style.backgroundColor = "black";
+            });
+
+            window.addEventListener('scroll', function(){
+                console.log(pageXOffset);
+            });
+        </script>
+    </body>
+</html>
